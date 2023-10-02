@@ -1,0 +1,111 @@
+body {
+    height: 177px;
+    width: 293px;
+    background-color: rgb(211, 238, 236);
+}
+
+.btn_add {
+    appearance: auto;
+    font-weight: bold;
+    font-stretch: semi-expanded;
+    font-size: large;
+    font-family: sans-serif;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    background-color: #20d7b8;
+    margin: 0em;
+    padding: 8px;
+    padding-inline: 6px;
+    border-width: 2px;
+    margin-top: 8px;
+    border-radius: 10px;
+    width: 69px;
+}
+
+.wrapper {
+    margin-left: 444px;
+    height: 177px;
+    width: 293px;
+    margin-top: 74px;
+}
+
+.heading {
+    padding-left: 40px;
+    padding-top: 4px;
+    padding-bottom: 27px;
+    margin-left: 48px;
+    width: 388px;
+    color:  #2ab39c;
+}
+
+.addtask_div {
+    display: flex;
+    margin-left: 25px;
+}
+
+.add_task_inputfield_div {
+    padding-right: 52px;
+    font-size: large;
+    border-radius: 40px;
+}
+
+.add_task_input_field {
+    height: 41px;
+    width: 439px;
+    border-color: #20d7b8;
+    border-radius: 11px;
+    padding: 12px;
+}
+
+.task_list_container {
+    display: none;
+    padding-top: 31px;
+    margin-left: 121px;
+}
+
+.checkbox_div {
+    display: flex;
+    padding-right: 28px;
+}
+
+.edit_task_div {
+    display: flex;
+    margin-top: 17px; /* Add a semicolon here */
+    margin-left: 34px;
+}
+
+.edit_span {
+    margin-left: 10px;
+    margin-top: -5px;
+    border-color: aqua;
+    height: 32px;
+    width: 38px;
+    border-radius: 7px;
+}
+
+.delete_span {
+    margin-left: 20px;
+    margin-top: -5px;
+    border-color: aqua;
+    height: 32px;
+    width: 38px;
+    border-radius: 7px;
+
+}
+
+.fa-pen-to-square {
+    color: rgb(29, 136, 11);
+
+}
+
+.fa-trash {
+    color: rgb(233, 72, 72);
+   
+}
+
+.fa-list-check {
+    margin-right: 45px;
+    color:  #2ab39c;
+    /* Add missing property here, e.g., margin-top: 10px; */
+}
